@@ -21,7 +21,7 @@
 .card {
     background-color: white;
     width: 35vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
 }
 
@@ -29,7 +29,7 @@
     background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
     width: 17vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
@@ -38,7 +38,7 @@
 .right-card {
     background-color: white;
     width: 17vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
@@ -59,9 +59,7 @@
 
 .right-card h1 {
     font-family: 'Fraunces', sans-serif;
-    font-size: 35px;
-    text-align: start;
-    font-weight: 700;
+    font-size: 41px;
     position: relative;
     bottom: 15px;
 }
@@ -81,7 +79,7 @@
 }
 
 #price {
-    font-size: 32px;
+    font-size: 35px;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', sans-serif;
     position: relative;
@@ -101,7 +99,7 @@
 
 .cart-btn {
     width: 13.5vw;
-    height: 15vh;
+    height: 30vh;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
     margin-bottom: 16px;
