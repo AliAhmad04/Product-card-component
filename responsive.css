@@ -1,0 +1,39 @@
+@media screen and (max-width:375px) {
+    .card {
+        width: 94vw;
+        height: 85vh;
+        flex-direction: column;
+    }
+
+    .left-card {
+        background-image: url(images/image-product-mobile.jpg);
+        width: 94vw;
+        height: 30vh;
+        border-radius: 10px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .right-card {
+        width: 94vw;
+        padding-inline: 25px;
+    }
+
+    .right-card h1 {
+        font-size: 34px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #right-card-h2 {
+        font-size: 14px;
+        opacity: 60%;
+        position: relative;
+        right: 100px;
+    }
+
+    .cart-btn {
+        width: 81vw;
+        height: 30vh;
+    }
+}

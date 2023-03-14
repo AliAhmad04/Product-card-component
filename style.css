@@ -45,14 +45,14 @@
     padding-inline: 35px;
     padding-top: 20px;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
-.right-card h2 {
+#right-card-h2 {
     position: relative;
     right: 80px;
     color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -60,40 +60,29 @@
 .right-card h1 {
     font-family: 'Fraunces', sans-serif;
     font-size: 41px;
-    position: relative;
-    bottom: 15px;
 }
 
 #definition-p {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    position: relative;
-    bottom: 25px;
+    letter-spacing: 1px;
 }
 
-
-.payment-section {
-    width: 15vw;
-    height: 10vh;
+.payment-box {
+    flex-direction: row;
 }
 
 #price {
     font-size: 35px;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', sans-serif;
-    position: relative;
-    right: 41px;
-    bottom: 20px;
     font-weight: 700;
 }
 
 #disc-prize {
     font-size: 14px;
-    position: relative;
-    right: 25px;
     text-decoration: line-through;
-    bottom: 20px;
     color: hsl(228, 12%, 48%);
 }
 
@@ -102,10 +91,10 @@
     height: 30vh;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
-    margin-bottom: 16px;
     position: relative;
     bottom: 25px;
     justify-content: center;
+    flex-direction: row;
 }
 
 .cart-btn:hover {
