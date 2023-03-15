@@ -21,19 +21,21 @@
 
     .right-card h1 {
         font-size: 34px;
-        position: relative;
-        bottom: 10px;
+        /* position: relative;
+        bottom: 10px; */
     }
 
     #right-card-h2 {
         font-size: 14px;
-        opacity: 60%;
-        position: relative;
-        right: 100px;
     }
 
-    .cart-btn {
+    .payment-box {
+        position: relative;
+        right: 25px;
+    }
+
+    .cart-btn button {
         width: 81vw;
-        height: 30vh;
+        height: 7vh;
     }
 }

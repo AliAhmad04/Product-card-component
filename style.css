@@ -46,12 +46,11 @@
     padding-top: 20px;
     flex-direction: column;
     gap: 20px;
+    align-items: start;
 }
 
 #right-card-h2 {
-    position: relative;
-    right: 80px;
-    color: hsl(228, 12%, 48%);
+    color: hsla(228, 12%, 48%, 0.494);
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -71,6 +70,8 @@
 
 .payment-box {
     flex-direction: row;
+    position: relative;
+    right: 34px;
 }
 
 #price {
@@ -84,31 +85,27 @@
     font-size: 14px;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
+    position: relative;
+    top: 15px;
 }
 
-.cart-btn {
+.cart-btn button {
     width: 13.5vw;
-    height: 30vh;
+    height: 7vh;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
     position: relative;
     bottom: 25px;
     justify-content: center;
     flex-direction: row;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    font-size: 15.5px;
 }
 
-.cart-btn:hover {
+.cart-btn button:hover {
     background-color: hsl(158, 21%, 22%);
     cursor: pointer;
     transition: 0.2s ease-out;
-}
-
-.cart-btn p {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.cart-btn img {
-    position: relative;
-    right: 10px;
 }
